@@ -572,7 +572,7 @@ body {
   }
 }
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 415px) {
   body {
     background-color: #61563e;
   }
@@ -597,6 +597,7 @@ body {
 
   .verseofTheDay {
     width: 100%;
+    margin: 4rem 6rem;
   }
 
   .actualBalance {
@@ -604,9 +605,14 @@ body {
     bottom: 1.7rem;
   }
 
+  .incomeSpending {
+    position: relative;
+    left: 6rem;
+  }
+
   .balanceBlock {
     position: relative;
-    right: 1.1rem;
+    left: 4.8rem;
     margin-top: 2rem;
     margin-left: 0.7rem;
     width: 17rem;
@@ -647,7 +653,22 @@ body {
   }
 
   .billsBlock {
-    margin-left: 2rem;
+    margin-left: 8rem;
+    width: 100%;
+  }
+
+  .transactionBlock {
+    position: relative;
+    left: 7rem;
+    font-size: 70%;
+    height: 30rem;
+  }
+
+  .lessonsBlock {
+    position: relative;
+    left: 3rem;
+    height: 15rem;
+    width: 25rem;
   }
 }
 
@@ -813,5 +834,89 @@ body {
 
   .billDate {
     font-size: 50%;
+  }
+
+  .transAmountText {
+    position: relative;
+    left: 1rem;
+    font-size: 100%;
+  }
+
+  .transIcon {
+    position: relative;
+    right: 1rem;
+    width: 20%;
+  }
+
+  .transNameAndDate {
+    position: relative;
+    right: 1.5rem;
+  }
+
+  .lessonRow {
+    margin-right: 5rem;
+  }
+
+  .lessonDiv {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 1rem 0.5rem;
+  }
+
+  .lessonImg {
+    font-size: 1.3rem;
+    position: relative;
+    right: 0.6rem;
+    bottom: 0.5rem;
+  }
+  .lessonName {
+    font-size: 50%;
+    margin: auto;
+  }
+
+  .rocketIcon {
+    position: relative;
+    top: 0.1rem;
+    left: 0.1rem;
+  }
+
+  .bpImg {
+    position: relative;
+    right: 0.3rem;
+  }
+
+  .smImg {
+    position: relative;
+    right: 0.35rem;
+  }
+
+  .tutName {
+    position: relative;
+    right: 0.7rem;
+  }
+
+  .tranName {
+    position: relative;
+    right: 0.85rem;
+  }
+
+  .bpName {
+    position: relative;
+    right: 0.2rem;
+  }
+
+  .dpName {
+    position: relative;
+    right: 0.6rem;
+  }
+
+  .smName {
+    position: relative;
+    right: 0.6rem;
+  }
+
+  .creditName {
+    position: relative;
+    right: 0.45rem;
   }
 }
